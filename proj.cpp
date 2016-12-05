@@ -175,12 +175,12 @@ int main(){
 	myfile.open("output.csv");
 	Option op(0,100,1,100,0.03,0.2,0.08);
 	vector<double> v;
-	cout << "The call price is: " << op.Call() << endl;
+	//cout << "The call price is: " << op.Call() << endl;
 	//cout << "Result of Simulation: " << op.ExpectedDiscountedPayoffPTilde() << endl;
-	/*for (int n=1; n<50; n++){
+	for (int n=1; n<50; n++){
 		v = op.hedge(n);
 		myfile << -v[0] << "," << v[1] << endl;
-	}*/
+	}
 	myfile.close();
 	return 0;
 }
