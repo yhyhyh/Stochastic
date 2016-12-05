@@ -1,7 +1,5 @@
----
-title: "Stochastic Calculus Final Project (yz978)"
-output: pdf_document
----
+#Stochastic Calculus Final Project (yz978)
+
 
 This is a user document for the final project of ORIE 5600. It validates the program by comparing with theoretical values and gives assisstance for Linux users.
 
