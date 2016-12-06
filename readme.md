@@ -12,6 +12,11 @@ In additions, function **ExpectedDiscountedPayoffPTilde()** is another way of pr
 ![](run1.png)
 ![](run2.png)
 
+## Answer for question 5
+Since the MMA (money market account) value discounted by r is a martingale. If the option price discounted by r is also a martingale, the portfolio made by these two is the same. 
+
+According to martingale representation theorem, there must exist a hedging that can relicate the portfolio whose value is a martingale. So that's why the simulation under PTilde (risk neutral probability) can lead to the same answer as Black-Scholes Formula.  
+
 ## Dynamic Hedging
 In order to simulate a dynamic hedging process, we implement the function **hedge(n)**, in which n is the number of times the portfolio rebalances. By increase n from 1 to 50, the program gives our the plot of expectations and variances of hedging errors. (In this senario, we adopt the same parameters as above)  
 ![](res1.png)  
